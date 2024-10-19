@@ -1,2 +1,2 @@
-# Breast-Cancer-Detection
+# Codes
 It consists of assignment codes from codebytes.
