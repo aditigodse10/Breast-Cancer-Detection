@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int findMissing(vector<int>& arr) {
+    int n = arr.size();
+    int sum = n * (n + 1) / 2;
+    for (int num : arr) sum -= num;
+    return sum;
+}
+
+int main() {
+    vector<int> arr = {3, 0, 3};
+    cout << "Missing number: " << findMissing(arr) << endl;
+    return 0;
+}
